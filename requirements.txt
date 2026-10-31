@@ -1,0 +1,4 @@
+# python ct_study.py --help --> This displays the available command-line options.
+# python ct_study.py --stage all --fast   -->   This runs all stages of the study in fast mode. Test the pipeline with reduced experiment settings.
+# python ct_study.py --stage all          -->   This runs all stages of the study in full mode. Use this for the complete experiment. Run the full experiments.
+# python ct_study.py --stage final        -->   This runs the final stage of the study. Perform the final evaluation on held-out patients.

@@ -1,0 +1,29 @@
+{
+  "n_rows": 43275,
+  "n_patients": 77,
+  "n_features": 384,
+  "n_missing": 0,
+  "n_exact_duplicates": 0,
+  "target_min": 1.738733,
+  "target_max": 97.489115,
+  "target_mean": 47.850808789277885,
+  "target_std": 22.464221032377502,
+  "target_skew": 0.26965339603778526,
+  "n_constant_cols": 5,
+  "n_near_zero_var_cols(<1e-4)": 1,
+  "n_cols_le5_unique_values": 31,
+  "sentinel_share_bone": 0.1765209897939534,
+  "sentinel_share_air": 0.13522129148212336,
+  "zero_share_bone": 0.6265548815713461,
+  "zero_share_air": 0.690097085820656,
+  "rows_per_patient_min_med_max": [
+    66,
+    510,
+    1749
+  ],
+  "eta2_target_by_patient": 0.47225027904769457,
+  "median_target_gap_adjacent_rows": 1.3447300000000002,
+  "n_pairs_abs_spearman_gt_0.95": 190,
+  "n_pcs_for_95pct_variance_(standardised)": 207,
+  "condition_number_corr": 55676031422459.36
+}
