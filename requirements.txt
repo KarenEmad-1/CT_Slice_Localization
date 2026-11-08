@@ -2,3 +2,13 @@
 # python ct_study.py --stage all --fast   -->   This runs all stages of the study in fast mode. Test the pipeline with reduced experiment settings.
 # python ct_study.py --stage all          -->   This runs all stages of the study in full mode. Use this for the complete experiment. Run the full experiments.
 # python ct_study.py --stage final        -->   This runs the final stage of the study. Perform the final evaluation on held-out patients.
+
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.7
+openpyxl>=3.1
+pyarrow>=14
+# optional: adds a UMAP panel to the embedding figure
+# umap-learn>=0.5
